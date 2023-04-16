@@ -24,6 +24,7 @@ class Ship:
         # movement flag
         self.moving_right = False
         self.moving_left = False
+        self.moving_up = False
 
     
     def update(self):
