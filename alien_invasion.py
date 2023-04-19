@@ -225,7 +225,7 @@ class AlienInvasion:
 
         self.aliens.draw(self.screen)
 
-        # draw the play button if the game is inactuve
+        # draw the play button if the game is inactive
         if not self.stats.game_active:
             self.play_button.draw_button()
 
